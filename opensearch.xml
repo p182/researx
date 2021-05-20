@@ -2,8 +2,6 @@
 <ShortName>Random Searx</ShortName>
 <Description>Random Searx Redirector</Description>
 <InputEncoding>UTF-8</InputEncoding>
-<Url type="text/html" method="get" template="https://researx.herokuapp.com/?">
-<Param name="q" value="{searchTerms}"/>
-<Param name="category_general" value="on"/>
+<Url type="text/html" method="get" template="https://researx.herokuapp.com/#q={searchTerms}&category_general=on">
 </Url>
 </OpenSearchDescription>
